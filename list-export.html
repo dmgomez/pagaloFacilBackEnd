@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css-table/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="css-table/jquery.dataTables.min.css">
+    <title>Title</title>
+
+</head>
+<body>
+<table id="example" class="display nowrap" cellspacing="0" width="100%">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Office</th>
+        <th>Age</th>
+        <th>Start date</th>
+        <th>Salary</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <th>Name</th>
+        <th>Position</th>
+        <th>Office</th>
+        <th>Age</th>
+        <th>Start date</th>
+        <th>Salary</th>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+        <td>Tiger Nixon</td>
+        <td>System Architect</td>
+        <td>Edinburgh</td>
+        <td>61</td>
+        <td>2011/04/25</td>
+        <td>$320,800</td>
+    </tr>
+
+
+    </tbody>
+</table>
+</body>
+<script type="text/javascript" src="js-table/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/events-main.js"></script>
+<script type="text/javascript" src="js/index_sys.js"></script>
+<script type="text/javascript" src="js-table/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js-table/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="js-table/buttons.flash.min.js"></script>
+<script type="text/javascript" src="js-table/jszip.min.js"></script>
+<script type="text/javascript" src="js-table/pdfmake.min.js"></script>
+<script type="text/javascript" src="js-table/vfs_fonts.js"></script>
+<script type="text/javascript" src="js-table/buttons.html5.min.js"></script>
+<script type="text/javascript" src="js-table/buttons.print.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $('#example').DataTable( {
+            "processing": true,
+            "dom": 'lBfrtip',
+            buttons: [
+                {
+                    extend: 'collection',
+                    text: 'Export',
+                    buttons: [
+                        'excel',
+                        'pdf'
+                    ]
+                }
+            ]
+        } );
+
+    } );
+</script>
+
+</html>

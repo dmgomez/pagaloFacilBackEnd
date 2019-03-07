@@ -1,0 +1,11 @@
+div.loading {
+
+    background-color: transparent;
+    background-image: url('../images/user-bg-2.jpg');
+    background-position:  center center;
+    background-repeat: no-repeat;
+    opacity: 5;
+}
+div.loading * {
+    opacity: .2;
+}

@@ -1,0 +1,216 @@
+/*================================================================================
+	Item Name: Materialize - Material Design Admin Template
+	Version: 2.1
+	Author: GeeksLabs
+	Author URL: http://www.themeforest.net/user/geekslabs
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN CSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+html {
+  position: relative !important;
+  min-height: 100% !important;
+}
+body {
+  margin: 0 0 0 !important; /* bottom = footer height */
+}
+
+
+
+footer {
+ /*position: fixed !important;*/
+  left: 0 !important;
+  bottom: 0 !important;
+  height: 100px !important;
+  width: 100% !important;
+}
+
+.header-search-wrapper {
+  margin: 10px auto 0 240px;
+}
+
+.cyan-text {
+  color: #00465e !important;
+}
+
+.cyan {
+  background-color: #77B3D4 !important;
+}
+
+.box::before {
+  background: rgba(255, 255, 255, 0.6) none repeat scroll 0 0;
+  border-radius: 10px;
+  content: "";
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: -10px;
+  transform: scale(0.95);
+  width: 100%;
+  z-index: -1;
+}
+
+.pink.accent-2 {
+  background-color: #607d8b !important;
+  border-radius: 0px 0px 200px 0px;
+-moz-border-radius: 0px 0px 200px 0px;
+-webkit-border-radius: 0px 0px 200px 0px;
+border: 0px solid #000000;
+}
+
+#content {
+  margin-top: 0px !important;
+}
+
+.slide-box-edit {
+
+  padding: 0 0rem !important;
+}
+
+
+ul.side-nav.leftside-navigation li.user-details {
+  background: #77B3D4 !important;
+  
+}
+
+.btn-floating{
+  box-shadow: 0 !important;
+}
+
+footer.page-footer {
+  background-color: #2196f3 !important;
+
+}
+
+footer.button-footer {
+  background-color: #ffffff !important;
+
+}
+
+nav .brand-logo {
+  color: #4f5d73 !important;
+
+}
+
+.slider .indicators {
+  bottom: -25px !important;
+}
+
+
+.card-button {
+
+  margin: 0.5rem 0 0rem !important;
+
+}
+
+.card .card-title2 {
+  color: #4f5d73  !important;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.card .card-content2 {
+  text-align: center;
+  border-radius: 0 0 2px 2px;
+  padding: 20px;
+}
+
+header .brand-logo img {
+  width: 119px !important;
+}
+
+.section-aux {
+  padding-bottom: 1rem;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.btn-floating {
+  background-color: #0091ea !important;
+
+}
+
+header .brand-logo {
+  height: 55px !important;
+}
+
+.input-monto{
+  color: #01579b !important;
+  font-size: 3em !important;
+  text-align: center;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+  color: #01579b !important;
+
+}
+
+img.responsive-img, video.responsive-video {
+  max-width: 100% !important;
+}
+
+#main,footer {
+  padding-left: 0px;
+}
+header .brand-logo {
+  margin: 1px 0px;
+  padding: 0 10px;
+}
+header .brand-logo img{ 
+  width: 172px;
+}
+#horizontal-nav{
+    margin-top: 64px;
+    z-index: -1;
+}
+@media only screen and (min-width: 993px) {
+  #content{
+  margin-top: 65px;
+  }
+}
+
+.doughnut-chart-status{
+  top: -85px;
+}
+/*----------------------------------------
+    Horizontal Menu
+------------------------------------------*/
+#horizontal-nav ul li{
+  text-align: center;
+}
+#horizontal-nav ul li a i{
+  height: 0px;
+  line-height: 45px;
+  font-size: 1.4rem;
+}
+#horizontal-nav ul li a span{
+  position: relative;
+  top: 12px;
+}
+#horizontal-nav .dropdown-menu span i{
+  line-height: 65px;
+}
+.dropdown-horizontal-list li a{
+  min-width: 150px;
+  text-align: left;
+  font-size: 1.0rem;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.header-search-wrapper {
+
+  max-width: 100% !important;
+ 
+}
+
+
+
+
+
+
+
+

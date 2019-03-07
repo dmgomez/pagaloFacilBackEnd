@@ -1,0 +1,40 @@
+[30-Nov-2016 21:13:35 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:13:46 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:14:28 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:16:06 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:19:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:27:19 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:27:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:28:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:29:30 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:30:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:07:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:07:53 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:08:30 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:11:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:13:02 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:35:02 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 40
+[30-Nov-2016 22:40:10 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 41
+[01-Dec-2016 08:17:46 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 42
+[01-Dec-2016 08:18:25 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 42
+[01-Dec-2016 08:19:43 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 42
+[03-Dec-2016 19:26:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:26:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:30:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:31:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:32:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:34:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:40:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:41:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:41:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:43:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[05-Dec-2016 14:09:59 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/lotica/public_html/services/ServicioUsuario.php on line 257
+[06-Dec-2016 01:19:55 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/lotica/public_html/services/ServicioUsuario.php on line 218

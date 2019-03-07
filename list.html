@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="PagaloFacil tu punto de venta virtual, paga de manera facil y rapido">
+    <meta name="keywords" content="Pago, Faqcil, tarjeta credito, PagaloFacil, punto de venta,Pagar">
+<!--    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title>PF / Listado de Transacciones</title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="images/pfa.png" sizes="32x32">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+ <!-- CORE CSS-->
+    <!--Import Google Icon Font-->
+    <link href="css/materialIcon.css" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/custom-style-m.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/style-main.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link rel="stylesheet" href="css-table/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="css-table/jquery.dataTables.min.css">
+    <!-- Modal-Recibo Fix -->
+    <style>
+        #lean-overlay{
+            z-index: 1;
+        }
+        .materialContainer {
+
+   max-width: 90% !important;
+  
+}
+    </style>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+</head>
+
+<body class="light-blue darken-4">
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <div id="voucher" class="modal-body"></div>
+    </div>
+    <div class="modal-footer">
+
+        <a href="index.html" class=" modal-action modal-close waves-effect waves-green btn-flat">Confirmar</a>
+    </div>
+</div>
+<div class="materialContainer">
+
+    <div class="box col s12 m12 l12">
+        <div class="title">Listado de transacciones</div><br>
+        <table id="table_transac" class="data-table responsive-table striped display nowrap" cellspacing="0">
+                    <thead>
+                    <tr>
+                        <th>Receptor</th>
+                        <th>Cantidad</th>
+                        <th>Cuenta</th>
+                        <th>Fecha</th>
+                       
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                    
+                       
+                        
+                    </tr>
+                    </tfoot>
+                    <tbody>
+
+                    </tbody>
+                </table>
+    </div>
+
+</div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="js-table/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="js-table/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js-table/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="js-table/buttons.flash.min.js"></script>
+<script type="text/javascript" src="js-table/jszip.min.js"></script>
+<script type="text/javascript" src="js-table/pdfmake.min.js"></script>
+<script type="text/javascript" src="js-table/vfs_fonts.js"></script>
+<script type="text/javascript" src="js-table/buttons.html5.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/events-main.js"></script>
+<script type="text/javascript" src="js/index_sys.js"></script>
+
+<script type="text/javascript">
+    
+  $(document).ready(function(){
+
+
+
+        $('#table_transac').DataTable({
+
+            "ajax": {
+                "url":'services/ServicioUsuario.php',
+                "type":"POST",
+                "data":{'accion':'listarTransacciones'}
+            },
+            dom: 'Bfrtip',
+            buttons: [
+                'excel', 'pdf'
+            ],
+
+            "language":{
+
+                        "emptyTable":     "No Existen datos para mostrar",
+                        "info":           "Mostrando _START_ de _END_ de un total de _TOTAL_ ",
+                        "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                        "infoFiltered":   "(filtered from _MAX_ total entries)",
+                        "infoPostFix":    "",
+                        "thousands":      ",",
+                        "lengthMenu":     "Mostrar _MENU_ ",
+                        "loadingRecords": "cargando...",
+                        "processing":     "Procesando...",
+                        "search":         "Buscar:",
+                        "zeroRecords":    "Sin resultados",
+                        "paginate": {
+                            "first":      "Primero",
+                            "last":       "Ultimo",
+                            "next":       "Siguiente",
+                            "previous":   "Anterior"
+                        },
+                        "aria": {
+                            "sortAscending":  ": activate to sort column ascending",
+                            "sortDescending": ": activate to sort column descending"
+                        }
+                    },
+            "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
+                var id=null;
+                if(aData.success===false){
+                    Materialize.toast(json.message, 5000);
+                    return;
+                }
+
+                //$(nRow).find('td:first').addClass('hide');
+
+
+            },
+            "fnDrawCallback": function () {
+                $('.tooltipped').tooltip({delay: 50});
+            }
+        });
+    });
+
+</script>
+</body>
+</html>

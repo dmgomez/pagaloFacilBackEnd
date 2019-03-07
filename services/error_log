@@ -1,0 +1,255 @@
+[30-Nov-2016 21:13:35 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:13:46 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:14:28 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:16:06 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:19:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:27:19 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:27:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:28:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:29:30 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 21:30:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:07:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:07:53 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:08:30 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:11:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:13:02 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 22
+[30-Nov-2016 22:35:02 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 40
+[30-Nov-2016 22:40:10 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 41
+[01-Dec-2016 08:17:46 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 42
+[01-Dec-2016 08:18:25 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 42
+[01-Dec-2016 08:19:43 America/Chicago] PHP Fatal error:  Class 'CJSON' not found in /home3/lotica/public_html/services/ServicioUsuario.php on line 42
+[03-Dec-2016 19:26:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:26:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:30:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:31:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:32:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:34:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 221
+[03-Dec-2016 19:40:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:40:17 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:41:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:41:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[03-Dec-2016 19:43:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 224
+[05-Dec-2016 14:09:59 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/lotica/public_html/services/ServicioUsuario.php on line 257
+[07-Dec-2016 11:23:19 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/lotica/public_html/services/ServicioUsuario.php on line 219
+[07-Dec-2016 11:23:21 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/lotica/public_html/services/ServicioUsuario.php on line 219
+[07-Dec-2016 11:23:24 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/lotica/public_html/services/ServicioUsuario.php on line 219
+[12-Jan-2017 19:41:46 America/Chicago] PHP Parse error:  syntax error, unexpected '$apellido' (T_VARIABLE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 115
+[12-Jan-2017 19:41:46 America/Chicago] PHP Parse error:  syntax error, unexpected '$apellido' (T_VARIABLE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 115
+[12-Jan-2017 19:41:53 America/Chicago] PHP Parse error:  syntax error, unexpected '$apellido' (T_VARIABLE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 115
+[12-Jan-2017 19:41:54 America/Chicago] PHP Parse error:  syntax error, unexpected '$apellido' (T_VARIABLE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 115
+[12-Jan-2017 19:43:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$apellido' (T_VARIABLE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 115
+[12-Jan-2017 19:43:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$apellido' (T_VARIABLE) in /home3/lotica/public_html/services/ServicioUsuario.php on line 115
+[13-Jan-2017 08:46:33 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Jan-2017 08:51:22 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Jan-2017 08:52:59 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Jan-2017 10:02:08 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Jan-2017 23:20:44 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting '}' in /home3/lotica/public_html/services/ServicioAdmin.php on line 61
+[13-Jan-2017 23:20:59 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting '}' in /home3/lotica/public_html/services/ServicioAdmin.php on line 61
+[13-Jan-2017 23:22:08 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting '}' in /home3/lotica/public_html/services/ServicioAdmin.php on line 61
+[13-Jan-2017 23:22:58 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting '}' in /home3/lotica/public_html/services/ServicioAdmin.php on line 61
+[13-Jan-2017 23:31:37 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Jan-2017 23:32:46 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[13-Jan-2017 23:35:28 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[14-Jan-2017 01:02:02 America/Chicago] PHP Fatal error:  Cannot pass parameter 2 by reference in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 201
+[14-Jan-2017 01:19:21 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 104
+[14-Jan-2017 01:19:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/lotica/public_html/services/ServicioUsuarioSistema.php:104) in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 106
+[15-Jan-2017 19:03:26 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[15-Jan-2017 19:03:41 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[16-Jan-2017 20:48:45 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 258
+[16-Jan-2017 20:49:17 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 258
+[17-Jan-2017 22:00:20 America/Chicago] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home3/lotica/public_html/services/ServicioUsuario.php on line 165
+[20-Jan-2017 18:31:23 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home3/lotica/public_html/services/ServicioUsuario.php on line 371
+[23-Jan-2017 22:42:42 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 144
+[23-Jan-2017 22:44:14 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 144
+[23-Jan-2017 23:16:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'us.id_rol' in 'on clause'' in /home3/lotica/public_html/services/ServicioUsuarioSistema.php:264
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuarioSistema.php(264): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 264
+[23-Jan-2017 23:17:03 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'us.id_rol' in 'on clause'' in /home3/lotica/public_html/services/ServicioUsuarioSistema.php:264
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuarioSistema.php(264): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuarioSistema.php on line 264
+[27-Jan-2017 09:07:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home3/lotica/public_html/services/instapago.php:6
+Stack trace:
+#0 /home3/lotica/public_html/services/instapago.php(6): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home3/lotica/public_html/services/instapago.php(68): buscar_user(NULL)
+#2 {main}
+  thrown in /home3/lotica/public_html/services/instapago.php on line 6
+[19-Feb-2017 22:11:19 America/Chicago] PHP Fatal error:  Call to a member function rowCount() on null in /home3/lotica/public_html/services/ServicioUsuario.php on line 811
+[19-Feb-2017 22:11:28 America/Chicago] PHP Fatal error:  Call to a member function rowCount() on null in /home3/lotica/public_html/services/ServicioUsuario.php on line 811
+[19-Feb-2017 22:11:42 America/Chicago] PHP Fatal error:  Call to a member function rowCount() on null in /home3/lotica/public_html/services/ServicioUsuario.php on line 811
+[24-Feb-2017 18:51:11 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_usuario_cliente' cannot be null' in /home3/lotica/public_html/services/ServicioUsuario.php:699
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(699): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 699
+[18-May-2017 00:55:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND is_delete = '0'  LIMIT 10' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:1172
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(1172): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 1172
+[18-May-2017 00:56:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND is_delete = '0'  LIMIT 10' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:1172
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(1172): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 1172
+[18-May-2017 00:58:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND is_delete = '0'  LIMIT 10' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:1172
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(1172): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 1172
+[18-May-2017 00:59:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND is_delete = '0'  LIMIT 10' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:1172
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(1172): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 1172
+[18-May-2017 01:01:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND is_delete = '0'  LIMIT 10' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:1172
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(1172): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 1172
+[22-May-2017 23:38:12 America/Chicago] PHP Parse error:  syntax error, unexpected '"tipo_factura"' (T_CONSTANT_ENCAPSED_STRING) in /home3/lotica/public_html/services/ServicioPago.php on line 546
+[22-May-2017 23:40:51 America/Chicago] PHP Parse error:  syntax error, unexpected '"tipo_factura"' (T_CONSTANT_ENCAPSED_STRING) in /home3/lotica/public_html/services/ServicioPago.php on line 546
+[22-May-2017 23:42:23 America/Chicago] PHP Fatal error:  Only variables can be passed by reference in /home3/lotica/public_html/services/ServicioPago.php on line 602
+[22-May-2017 23:46:42 America/Chicago] PHP Fatal error:  Only variables can be passed by reference in /home3/lotica/public_html/services/ServicioPago.php on line 602
+[30-May-2017 20:48:13 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/lotica/public_html/services/ServicioPago.php on line 819
+[30-May-2017 20:48:42 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/lotica/public_html/services/ServicioPago.php on line 819
+[30-May-2017 20:50:00 America/Chicago] PHP Warning:  number_format() expects parameter 2 to be long, string given in /home3/lotica/public_html/services/ServicioPago.php on line 813
+[30-May-2017 20:50:00 America/Chicago] PHP Warning:  number_format() expects parameter 2 to be long, string given in /home3/lotica/public_html/services/ServicioPago.php on line 813
+[31-May-2017 23:39:00 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/lotica/public_html/services/ServicioPago.php on line 918
+[03-Jun-2017 01:16:46 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting ')' in /home3/lotica/public_html/services/ServicioPago.php on line 620
+[10-Jun-2017 13:17:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/lotica/public_html/services/instapago.php:6) in /home3/lotica/public_html/services/instapago.php on line 7
+[14-Jun-2017 18:09:32 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/instapago.php:141
+Stack trace:
+#0 /home3/lotica/public_html/services/instapago.php(141): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/instapago.php on line 141
+[14-Jun-2017 18:12:23 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/instapago.php:143
+Stack trace:
+#0 /home3/lotica/public_html/services/instapago.php(143): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/instapago.php on line 143
+[14-Jun-2017 18:18:08 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`lotica_pagalofacil`.`transaccion`, CONSTRAINT `fk_transaccion_reference_estatus` FOREIGN KEY (`id_estatus_transaccion`) REFERENCES `estatus_transaccion` (`id_estatus_transaccion`))' in /home3/lotica/public_html/services/instapago.php:142
+Stack trace:
+#0 /home3/lotica/public_html/services/instapago.php(142): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/instapago.php on line 142
+[16-Jun-2017 02:01:19 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/lotica/public_html/services/ServicioPago.php on line 934
+[19-Jun-2017 23:16:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/ServicioUsuario.php:463
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(463): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 463
+[20-Jun-2017 00:47:47 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/lotica/public_html/services/ServicioPago.php on line 1131
+[20-Jun-2017 00:48:12 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/lotica/public_html/services/ServicioPago.php on line 1131
+[20-Jun-2017 00:48:12 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/lotica/public_html/services/ServicioPago.php on line 1131
+[20-Jun-2017 00:48:13 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/lotica/public_html/services/ServicioPago.php on line 1131
+[20-Jun-2017 00:48:14 America/Chicago] PHP Parse error:  syntax error, unexpected ':' in /home3/lotica/public_html/services/ServicioPago.php on line 1131
+[20-Jun-2017 11:22:36 America/Chicago] PHP Parse error:  syntax error, unexpected ''message'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home3/lotica/public_html/services/instapago.php on line 51
+[21-Jun-2017 22:05:05 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on null in /home3/lotica/public_html/services/ServicioPago.php on line 1175
+[21-Jun-2017 22:05:22 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on null in /home3/lotica/public_html/services/ServicioPago.php on line 1175
+[21-Jun-2017 22:05:23 America/Chicago] PHP Fatal error:  Call to a member function bindParam() on null in /home3/lotica/public_html/services/ServicioPago.php on line 1175
+[22-Jun-2017 21:12:52 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/lotica/public_html/services/instapagoColectivo.php on line 105
+[22-Jun-2017 21:12:59 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/lotica/public_html/services/instapagoColectivo.php on line 105
+[22-Jun-2017 21:13:01 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/lotica/public_html/services/instapagoColectivo.php on line 105
+[22-Jun-2017 21:17:51 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/lotica/public_html/services/instapagoColectivo.php on line 261
+[22-Jun-2017 21:20:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home3/lotica/public_html/services/envioEmail.php:23
+Stack trace:
+#0 /home3/lotica/public_html/services/envioEmail.php(23): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/envioEmail.php on line 23
+[03-Jul-2017 13:01:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$tarjeta' (T_VARIABLE) in /home3/lotica/public_html/services/instapagoColectivo.php on line 97
+[03-Jul-2017 13:02:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$tarjeta' (T_VARIABLE) in /home3/lotica/public_html/services/instapagoColectivo.php on line 97
+[03-Jul-2017 13:02:18 America/Chicago] PHP Parse error:  syntax error, unexpected '$tarjeta' (T_VARIABLE) in /home3/lotica/public_html/services/instapagoColectivo.php on line 97
+[06-Jul-2017 00:14:23 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/ServicioUsuario.php:469
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(469): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 469
+[06-Jul-2017 00:16:28 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home3/lotica/public_html/services/ServicioUsuario.php on line 461
+[06-Jul-2017 00:18:56 America/Chicago] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home3/lotica/public_html/services/ServicioUsuario.php on line 461
+[06-Jul-2017 00:19:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/ServicioUsuario.php:472
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(472): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 472
+[06-Jul-2017 00:21:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/ServicioUsuario.php:468
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(468): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 468
+[06-Jul-2017 00:21:58 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/ServicioUsuario.php:468
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(468): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 468
+[06-Jul-2017 00:23:43 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/ServicioUsuario.php:468
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(468): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 468
+[06-Jul-2017 00:27:48 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home3/lotica/public_html/services/ServicioUsuario.php:469
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(469): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 469
+[06-Jul-2017 00:48:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND is_delete = '0' AND validado = '1' AND numero_cuenta IS NOT NULL LIMIT 10' at line 3' in /home3/lotica/public_html/services/ServicioUsuario.php:464
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(464): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 464
+[06-Jul-2017 00:48:30 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND is_delete = '0' AND validado = '1' AND numero_cuenta IS NOT NULL LIMIT 10' at line 3' in /home3/lotica/public_html/services/ServicioUsuario.php:464
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(464): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 464
+[06-Jul-2017 00:50:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND is_delete = 0 AND validado = 1 AND numero_cuenta IS NOT NULL LIMIT 10' at line 3' in /home3/lotica/public_html/services/ServicioUsuario.php:462
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(462): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 462
+[06-Jul-2017 00:59:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' AND cedula <>'22081343') 
+			AND is_delete = 0 AND validado = 1 AND numero_c' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:462
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(462): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 462
+[06-Jul-2017 00:59:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' AND cedula <>'22081343') 
+			AND is_delete = 0 AND validado = 1 AND numero_c' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:462
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(462): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 462
+[06-Jul-2017 00:59:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' AND cedula <>'22081343') 
+			AND is_delete = 0 AND validado = 1 AND numero_c' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:462
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(462): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 462
+[06-Jul-2017 00:59:43 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' AND cedula <>'22081343') 
+			AND is_delete = 0 AND validado = 1 AND numero_c' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:462
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(462): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 462
+[06-Jul-2017 00:59:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' AND cedula <>'22081343') 
+			AND is_delete = 0 AND validado = 1 AND numero_c' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:462
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(462): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 462
+[06-Jul-2017 00:59:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%%' AND cedula <>'22081343') 
+			AND is_delete = 0 AND validado = 1 AND numero_c' at line 2' in /home3/lotica/public_html/services/ServicioUsuario.php:462
+Stack trace:
+#0 /home3/lotica/public_html/services/ServicioUsuario.php(462): PDOStatement->execute()
+#1 {main}
+  thrown in /home3/lotica/public_html/services/ServicioUsuario.php on line 462

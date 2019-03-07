@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Pagalo Facil Perfil</title>
+    <!-- Favicons-->
+    <link rel="icon" href="images/pfa.png" sizes="32x32">
+    <!-- Favicons-->
+
+    <!-- CORE CSS-->
+    <link href="css/style-main.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/style-m.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <!-- Custome CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- DataTables -->
+    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+</head>
+
+<body class="blue-grey darken">
+
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <!-- Modal Structure -->
+            <div id="delete_modal" class="modal modal-fixed-footer toast_index_fix">
+                <div class="modal-content">
+                    <h4>Eliminar Tarjeta</h4>
+                    <div class="row">
+                        <div style="text-align: center;">
+                            <i>&iquest;Est&aacute;s seguro de eliminar &eacute;sta tarjeta?</i>
+                            <h3 id="titular"></h3>
+                            <input type="hidden" id="del_tdc_id">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+                    <a onclick="deleteTDC_go()" href="#!" class="waves-effect waves-green btn-flat">S&iacute;, borrar</a>
+                    <div class="preloader-wrapper">
+                        <div class="spinner-layer spinner-red-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="add_modal" class="modal modal-fixed-footer toast_index_fix">
+                <div class="modal-content">
+                    <h4>Agregar Tarjeta</h4>
+                    <div class="row">
+                        <div class="input-field col s12 m6 l6">
+                            <input id="nombre_titular" type="text" pattern="^[a-zñÑA-Z\s]+$" class="validate">
+                            <label for="nombre_titular" data-error="sólo se permiten caracteres alfabéticos">Titular</label>
+                        </div>
+                        <div class="input-field col s3 m2 l1">
+                            <select>
+                                <option value="1">V</option>
+                                <option value="2">E</option>
+                            </select>
+                        </div>
+                        <div class="input-field col s9 m4 l5">
+                            <input id="ci_titular" type="text" pattern="^[0-9]{6,8}$" class="validate">
+                            <label for="ci_titular" data-error="debe contener entre 6 y 8 números" class="hide-on-med-and-down">Cédula de identidad del titular</label>
+                            <label for="ci_titular" data-error="debe contener entre 6 y 8 números" class="hide-on-large-only">C.I. Titular</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="numero_tarjeta" type="text" pattern="^[0-9]{15,16}$" class="validate">
+                            <label for="numero_tarjeta" data-error="Tarjeta inv&aacute;lida">N&uacute;mero de tarjeta</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="ano_vencimiento" type="text" pattern="^[0-9]{4}$" class="validate">
+                            <label for="ano_vencimiento" data-error="debe ingresar un año válido">Año de vencimiento</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <label for="mes_vencimiento" class="hide-on-med-and-down active">Mes de vencimiento</label>
+                            <select title="Mes de vencimiento" class="browser-default" id="mes_vencimiento">
+                                <option value="" disabled selected>Seleccione una opci&oacute;n</option>
+                                <option value="1">Enero</option>
+                                <option value="2">Febrero</option>
+                                <option value="3">Marzo</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Mayo</option>
+                                <option value="6">Junio</option>
+                                <option value="7">Julio</option>
+                                <option value="8">Agosto</option>
+                                <option value="9">Septiembre</option>
+                                <option value="10">Octubre</option>
+                                <option value="11">Noviembre</option>
+                                <option value="12">Diciembre</option>
+                            </select>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <label for="empresa_emisora_id_empresa_emisora" class="hide-on-med-and-down active">Empresa emisora</label>
+                            <select title="Empresa emisora" id="empresa_emisora_id_empresa_emisora" class="browser-default">
+                                <option value="" disabled selected>Seleccione una opci&oacute;n</option>
+                            </select>
+                            <!--<label for="empresa_emisora_id_empresa_emisora">Empresa emisora</label>-->
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="direccion_titular" type="text" class="validate">
+                            <label for="direccion_titular">Dirección del titular</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+                    <a onclick="addTDC_go()" href="#!" class="waves-effect waves-green btn-flat">Agregar</a>
+                    <div class="preloader-wrapper">
+                        <div class="spinner-layer spinner-red-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="edit_modal" class="modal modal-fixed-footer toast_index_fix">
+                <div class="modal-content">
+                    <h4>Modificar Tarjeta</h4>
+                    <div class="row">
+                        <input type="hidden" id="edit_tdc_id">
+                        <div class="input-field col s12 m6 l6">
+                            <input id="nombre_titular_update" type="text" pattern="^[a-zñÑA-Z\s]+$" class="validate">
+                            <label for="nombre_titular_update" data-error="sólo se permiten caracteres alfabéticos">Titular</label>
+                        </div>
+                        <div class="input-field col s3 m3 l2">
+                            <select title="venezolano o extranjero" class="browser-default select-v-e">
+                                <option value="0">V/E</option>
+                                <option value="1">V</option>
+                                <option value="2">E</option>
+                            </select>
+                        </div>
+                        <div class="input-field col s9 m3 l4">
+                            <input id="ci_titular_update" type="text" pattern="^[0-9]{6,8}$" class="validate">
+                            <label for="ci_titular_update" data-error="debe contener entre 6 y 8 números" class="hide-on-med-and-down">Cédula de identidad del titular</label>
+                            <label for="ci_titular_update" data-error="debe contener entre 6 y 8 números" class="hide-on-large-only">C.I. Titular</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="numero_tarjeta_update" type="text" pattern="^[0-9]{15,16}$" class="validate">
+                            <label for="numero_tarjeta_update" data-error="número de tarjeta inválido">Numero de tarjeta</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="ano_vencimiento_update" type="number" pattern="^[0-9]{4}$" class="validate">
+                            <label for="ano_vencimiento_update" data-error="A&ntilde;;o inv&aacute;;lido">Año de vencimiento</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <label for="mes_vencimiento_update" class="hide-on-med-and-down active">Mes de vencimiento</label>
+                            <select class="browser-default" id="mes_vencimiento_update">
+                                <option value="0" selected>Seleccione una opción</option>
+                                <option value="1">Enero</option>
+                                <option value="2">Febrero</option>
+                                <option value="3">Marzo</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Mayo</option>
+                                <option value="6">Junio</option>
+                                <option value="7">Julio</option>
+                                <option value="8">Agosto</option>
+                                <option value="9">Septiembre</option>
+                                <option value="10">Octubre</option>
+                                <option value="11">Noviembre</option>
+                                <option value="12">Diciembre</option>
+                            </select>
+                            <!--<label for="mes_vencimiento_update">Mes de vencimiento</label>-->
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <label for="empresa_emisora_id_empresa_emisora_update" class="hide-on-med-and-down active">Empresa emisora</label>
+                            <select id="empresa_emisora_id_empresa_emisora_update" class="browser-default" title="Empresa emisora">
+                                <option value="0" selected>Seleccione una opción</option>
+                            </select>
+                        </div>
+                        <div class="input-field col s12">
+                            <input id="direccion_titular_update" type="text" class="validate">
+                            <label for="direccion_titular_update">Dirección del titular</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+                    <a onclick="editTDC_go()" href="#!" class="waves-effect waves-green btn-flat">Aceptar</a>
+                    <div class="preloader-wrapper">
+                        <div class="spinner-layer spinner-red-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div><div class="gap-patch">
+                            <div class="circle"></div>
+                        </div><div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containerApp row">
+       <div class="box col s12 m10 offset-m1 l8 offset-l2" >
+
+            <div class="registro">
+                <!--<div class="title">Registro</div>-->
+                <div class="row">
+                    <div class="col s10 offset-s1 hide-on-med-and-up">
+                      <img src="images/logo.png" alt="" class="responsive-img">
+                    </div>
+                    
+                    <div class="col s12 m8 l9">
+                        <div class="title">Listado de tarjetas</div><br>
+                    </div>
+                    <div class="col s8 m4 l3 right-align hide-on-small-only">
+                        <img src="images/logo.png" alt="" class="responsive-img">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s10 m11 l11">
+                        <table class="data-table responsive-table display" cellspacing="0">
+                            <thead>
+                            <tr>
+                                <th class="hide">ID</th>
+                                <th>Titular</th>
+                                <th>N&uacute;mero</th>
+                                <th>Vencimiento</th>
+                                <th>Tipo</th>
+                                <th>Acci&oacute;n</th>
+                            </tr>
+                            </thead>
+                            <tfoot>
+                            <tr>
+                                <th class="hide">ID</th>
+                                <th>Titular</th>
+                                <th>N&uacute;mero</th>
+                                <th>Vencimiento</th>
+                                <th>Tipo</th>
+                                <th>Acci&oacute;n</th>
+                            </tr>
+                            </tfoot>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col s2 m1 l1">
+                        <br>
+                        <a class="btn-floating waves-effect waves-light red" onclick="$('#add_modal').modal('open')">
+                            <i class="mdi-content-add activator tooltipped" data-position='top' data-delay='50' data-tooltip='Nuevo'></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+<!--    <script src="js/index_sys.js">-->
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/events-main.js"></script>
+    <!-- Datatables -->
+    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+
+    <script>
+        var result_empresa = Object;
+        var array_empresas = [];
+        var preloader = $('.preloader-wrapper');
+
+        function editTDC_go() {
+
+            if(preloader.hasClass('active')){
+                Materialize.toast("Procesando, por favor espere..", 5000);
+                return;
+            }
+
+            preloader.addClass('active');
+
+            var array_data = {};
+
+            $.each($('#edit_modal').find('input,select'),function (key,val) {
+                if($(val).attr('id')!==undefined)
+                    array_data[$(val).attr('id').replace('_update','')] = $(val).val();
+            });
+
+            array_data['id_tarjeta_asociada'] = $('#edit_tdc_id').val();
+
+
+            setTimeout(function () {
+                $.ajax({
+                    'dataType':'json',
+                    'url':'services/ServicioUsuario.php',
+                    'data':{
+                        'accion':'modificarTarjeta',
+                        'array_data':array_data
+                    },
+                    'type':'POST'
+                }).done(function (result) {
+                    console.log(result);
+
+                    if(!result.success){
+                        preloader.removeClass('active');
+                        Materialize.toast(result.message, 5000);
+                        return;
+                    }
+
+                    Materialize.toast('&iexcl;Operación exitosa! Actualizando datos..', 5000);
+
+                    setTimeout(function () {
+                        window.location.reload(true);
+                    },1500);
+
+                }).fail(function () {
+                    preloader.removeClass('active');
+                    $('#add_modal').modal('close');
+                    Materialize.toast("Network error..", 5000);
+                });
+            },500);
+        }
+        
+        function deleteTDC(id) {
+            var boton_borrar = $('a[data-id="'+id+'"]');
+            var titular = boton_borrar.parent().parent().prev().prev().prev().prev().text();
+            var numero = boton_borrar.parent().parent().prev().prev().prev().text();
+
+            $('#del_tdc_id').val(id);
+            $('#titular').text(titular+' '+ numero );
+            $('#delete_modal').modal('open');
+        }
+
+        function getTDC(id) {
+            var edit_modal = $('#edit_modal');
+
+            $('#edit_tdc_id').val(id);
+
+            edit_modal.find('input').not('[type="hidden"]').val('');
+            edit_modal.find('select').val(0);
+            edit_modal.modal('open');
+
+            preloader.addClass('active');
+
+            setTimeout(function () {
+                $.ajax({
+                    'dataType':'json',
+                    'url':'services/ServicioUsuario.php',
+                    'data':{
+                        'accion':'obtenerTarjeta',
+                        'id_tarjeta_asociada':id
+                    },
+                    'type':'POST'
+                }).done(function (result) {
+                    console.log(result);
+                    preloader.removeClass('active');
+
+                    edit_modal.find('.select-v-e').val(1);//Select V by default (alert, éste campo no se maneja en bases de datos
+
+                    $.each(result.data,function (key,val) {
+                        $('#'+key+'_update').val(val).focusin();
+                    });
+
+                }).fail(function () {
+                    preloader.removeClass('active');
+                    $('#edit_modal').modal('close');
+                    Materialize.toast("Network error..", 5000);
+                });
+            },500);
+
+        }
+
+        function deleteTDC_go() {
+
+            if(preloader.hasClass('active')){
+                Materialize.toast("Procesando, por favor espere..", 5000);
+                return;
+            }
+
+            preloader.addClass('active');
+
+            var id = $('#del_tdc_id').val();
+
+            setTimeout(function () {
+                $.ajax({
+                    'dataType':'json',
+                    'url':'services/ServicioUsuario.php',
+                    'data':{
+                        'accion':'eliminarTarjeta',
+                        'id_tarjeta_asociada':id
+                    },
+                    'type':'POST'
+                }).done(function (result) {
+                    console.log(result);
+
+                    if(!result.success){
+                        preloader.removeClass('active');
+                        Materialize.toast(result.message, 5000);
+                        return;
+                    }
+
+                    Materialize.toast('&iexcl;Operación exitosa! Actualizando datos..', 5000);
+
+                    setTimeout(function () {
+                        window.location.reload(true);
+                    },1500);
+
+                }).fail(function () {
+                    preloader.removeClass('active');
+                    Materialize.toast("Network error..", 5000);
+                });
+            },500);
+
+        }
+
+        function addTDC_go() {
+
+            if(preloader.hasClass('active')){
+                Materialize.toast("Procesando, por favor espere..", 5000);
+                return;
+            }
+
+            var array_data = {};
+
+            $.each($('#add_modal').find('input,select'),function (key,val) {
+                if($(val).attr('id')!==undefined)
+                    array_data[$(val).attr('id')] = $(val).val();
+            });
+
+            preloader.addClass('active');
+
+            setTimeout(function () {
+                console.log(array_data);
+                $.ajax({
+                    'dataType':'json',
+                    'url':'services/ServicioUsuario.php',
+                    'data':{
+                        'accion':'agregarTarjeta',
+                        'array_data':array_data
+                    },
+                    'type':'POST'
+                }).done(function (result) {
+                    console.log(result);
+
+                    if(!result.success){
+                        preloader.removeClass('active');
+                        Materialize.toast(result.message, 5000);
+                        return;
+                    }
+
+                    Materialize.toast('&iexcl;Operación exitosa! Actualizando datos..', 5000);
+
+                    setTimeout(function () {
+                        window.location.reload(true);
+                    },1500);
+
+                }).fail(function () {
+                    preloader.removeClass('active');
+                    $('#add_modal').modal('close');
+                    Materialize.toast("Network error..", 5000);
+                });
+            },500);
+        }
+        
+        $(function () {
+            $.ajax({
+                'dataType':'json',
+                'url':'services/ServicioUsuario.php',
+                'data':{
+                    'accion':'cargarComboEmpresaEmisora'
+                },
+                'type':'POST'
+            }).done(function (result) {
+                //console.log(result);
+                result_empresa = result.result_empresa;
+
+                $.each(result_empresa,function (key,val) {
+                    array_empresas[val.id_empresa_emisora] = val.nombre_empresa;
+                });
+
+                $('.data-table').DataTable({
+                    "ajax": {
+                        "url":'services/ServicioUsuario.php',
+                        "type":"POST",
+                        "data":{'accion':'listarTarjetas'}
+                    },
+                    "fnRowCallback": function( nRow, aData, iDisplayIndex, iDisplayIndexFull ) {
+                        var id=null;
+                        if(aData.success===false){
+                            Materialize.toast(json.message, 5000);
+                            return;
+                        }
+                        $(nRow).find('td:first').addClass('hide');
+                        id = $(nRow).find('td:first').html();
+                        $(nRow).find('td:last').prev().html(array_empresas[$(nRow).find('td:last').prev().html()]);
+                        $(nRow).find('td:last').html(
+                                "<div style='text-align: center;'>"+
+                                "<form class='hide' action='perfil.php' method='post' target='_blank'>"+
+                                "<input type='hidden' name='id_usuario' value='"+id+"'>"+
+                                "</form><a onclick='getTDC("+id+")'  data-id='"+id+"' class='btn-floating waves-effect waves-light blue'> " +
+                                "<i class='mdi-editor-mode-edit tooltipped' data-position='top' data-delay='50' data-tooltip='Cambiar'></i>"+
+                                "</a>&nbsp;"+
+                                "<a onclick='deleteTDC("+id+")' data-id='"+id+"' class='btn-floating waves-effect waves-light red'> " +
+                                "<i class='mdi-action-delete tooltipped' data-position='top' data-delay='50' data-tooltip='Eliminar'></i>"+
+                                "</a>&nbsp;"+
+                                "</div>"
+                        );
+                    },
+                    "fnDrawCallback": function () {
+                        $('.tooltipped').tooltip({delay: 50});
+                    }
+                });
+
+                $.each(array_empresas,function (key,val){
+                    if(val!==undefined)
+                        $('#empresa_emisora_id_empresa_emisora,#empresa_emisora_id_empresa_emisora_update').append('<option value="'+key+'">'+val+'</option>');
+                });
+                $('select').not('#mes_vencimiento,#mes_vencimiento_update').material_select();
+            });
+
+            $('.listado_usuarios').addClass('active');
+            $('.modal').modal();
+        });
+
+        $('.sidebar-collapse').sideNav({
+            edge: 'left'
+        });
+    </script>
+
+</body>
+</html>

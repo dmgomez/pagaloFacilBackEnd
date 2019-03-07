@@ -1,0 +1,76 @@
+SELECT ps_orders.id_order,
+ 0 AS order_invoice,
+  '' AS invoice_prefix,
+  0 AS store_id,
+  'Vinoole' AS store_name,
+  'http://vinoole.com/' AS store_url,
+  ps_orders.id_customer AS customer_id,
+   1 AS customer_group_id,
+    `ps_customer`.firstname,
+     `ps_customer`.lastname,
+      COALESCE(ps_address.phone_mobile,ps_address.phone) AS telephone,
+       '' AS fax,8
+        `ps_customer`.email,
+         ps_address.firstname AS shipping_firstname,
+         ps_address.lastname AS shipping_lastname,
+         ps_address.company AS shipping_company,
+         ps_address.address1 AS shipping_address_1,
+         ps_address.address2 AS shipping_address_2,
+         ps_address.city AS shipping_city,
+         ps_address.postcode AS shipping_postcode,
+         '' AS shipping_zone, 0 AS shipping_zone_id,
+         ps_country_lang.name AS shipping_country,
+         ps_country_lang.id_country AS shipping_country_id,
+         '{firstname} {lastname} {company} {address_1} {address_2} {city}, {zone} {postcode} {country}' AS shipping_address_format,
+         'Flat Shipping Rate' AS shipping_method,
+         'Rate' AS shipping_method_key,
+         ps_address.firstname AS payment_firstname,
+         ps_address.lastname AS payment_lastname,
+         ps_address.company AS payment_company,
+         ps_address.address1 AS payment_address_1,
+         ps_address.address2 AS payment_address_2,
+         ps_address.city AS payment_city,
+         ps_address.postcode AS
+         payment_postcode, '' AS payment_zone,
+         ps_country_lang.name AS payment_country,
+         ps_country_lang.id_country AS payment_country_id,
+         '{firstname} {lastname} {company} {address_1} {address_2} {city}, {zone} {postcode} {country}' AS payment_address_format,
+         ps_orders.payment AS payment_method,
+         '' AS payment_method_key,
+         '' AS comment,
+         total_paid AS total,
+         case ps_orders.current_state
+         when 14 OR 15 OR 16 OR 20 then 0
+         when 1 OR 3 OR 17 OR 18 then 1
+         when 10 OR 11 then 2
+         when 4 OR 5 then 3
+         when 6 then 7
+         when 13 OR 2 OR 9 OR 19 OR 12 then 5
+         when 6 then 9
+          when 8 then 10
+         when 7 then 11 end as order_status,
+         ps_orders.id_lang AS language_id,
+         ps_orders.id_currency AS id_currency,
+         case ps_orders.id_currency
+         when 1 then 'EUR'
+         when 2 then 'USD'
+         when 3 then 'GBP'
+         end as currency,
+         0 AS value,
+         0 AS coupon_id,
+         ps_orders.date_add AS date_added,
+         ps_orders.date_upd AS date_modified,
+         '0.0.0.0' AS ip,
+         '' AS payment_method_data,
+         ps_order_history.id_order_history AS order_history_id,
+         ps_order_history.id_order AS his_order_id,
+         ps_order_history.id_order_state AS order_status_id,
+         '' AS notify,
+         '' AS comment,
+         ps_order_history.date_add AS date_added, '' AS date_modified
+FROM `ps_orders`, `ps_customer`, `ps_address`, `ps_country_lang`, `ps_order_history`
+WHERE
+ps_orders.id_customer = `ps_customer`.id_customer
+AND ps_orders.id_order=ps_order_history.id_order
+AND ps_orders.id_address_delivery = ps_address.id_address
+AND ps_country_lang.id_country
